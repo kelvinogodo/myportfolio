@@ -1,0 +1,13 @@
+.design-post-date h2{
+    color: white;
+    background: rgb(246, 0, 82);
+    width: 150px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 3px;
+}
+@media screen and(max-width:900px) {
+    .design-post-date h2{
+        display: block;
+    }
+}
