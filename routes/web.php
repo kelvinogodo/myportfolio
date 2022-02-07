@@ -1,6 +1,8 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,9 +16,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view("index");
 });
 
-// Route::get('/', function () {
-//     return view('html files.blog');
-// });
+Route::get("/index", [HomeController::class, "index"])->name("index");
+Route::get("/contact", [HomeController::class, "contact"])->name("contact");
+Route::get("/project", [HomeController::class, "project"])->name("project");
+Route::get("/blog", [HomeController::class, "blog"])->name("blog");
+Route::get("/resume", [HomeController::class, "resume"])->name("resume");
+
+

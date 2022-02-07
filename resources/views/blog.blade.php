@@ -18,19 +18,19 @@
         <nav class="navbar">
             <ul class="navlist">
                 <li class="tab">
-                    <a href="../index.html" class="link">about me</a>
+                    <a href="{{route("index")}}" class="link">about me</a>
                 </li>
                 <li class="tab">
-                    <a href="./contact.html" class="link">contact</a>
+                    <a href="{{route("contact")}}" class="link">contact</a>
                 </li>
                 <li class="tab">
-                    <a href="./resume.html" class="link">resume</a>
+                    <a href="{{route("resume")}}" class="link">resume</a>
                 </li>
                 <li class="tab">
-                    <a href="./project.html" class="link">projects</a>
+                    <a href="{{route("project")}}" class="link">projects</a>
                 </li>
                 <li class="tab">
-                    <a href="./blog.html" class="link">blog</a>
+                    <a href="{{route("blog")}}" class="link">blog</a>
                 </li>
             </ul>
         </nav>
@@ -40,11 +40,11 @@
                  <img src="{{asset('data/images/1193.png')}}" alt=""  id="close-sidebar" class="close-btn">
             </div>
          <ul class="list-items">
-            <li><a href="../index.html">home <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"> </a ></li>
-             <li><a href="./contact.html">contact  <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"></a></li>
-             <li><a href="./blog.html">blog  <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"></a></li>
-             <li><a href="./resume.html">resume  <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"></a></li>
-             <li><a href="./project.html">projects <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"></a></li>
+            <li><a href=".{{route("index")}}">home <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"> </a ></li>
+             <li><a href="{{route("contact")}}">contact  <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"></a></li>
+             <li><a href="{{route("blog")}}">blog  <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"></a></li>
+             <li><a href="{{route("resume")}}">resume  <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"></a></li>
+             <li><a href="{{route("project")}}">projects <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"></a></li>
          </ul>
         </div>
         <div class="menu-container" id="menubar">
