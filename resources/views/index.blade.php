@@ -76,9 +76,8 @@
                 web developer
             </h1>
             <p class="intro-details">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae alias hic deserunt,
-                ratione repellendus omnis. Ullam unde iste quibusdam.
-                Consequuntur repellat pariatur quod quos voluptatem? Aut magnam eaque maiores hic!
+                I AM NWAMINI EMMANUEL, A Freelancer ,Web-Developer, Software Engineer, Crypto-Trader and A Teacher of Programming.
+
             </p>
             <button class="cssbuttons-io-button"> hire me
                 <div class="icon">
@@ -108,10 +107,11 @@
         <!-- this contains the about me text  -->
         <div class="about-us-text">
             <h1>about me</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga sapiente
-                 facilis eaque quam pariatur molestiae modi aliquid voluptas. Facilis, eius nihil. Et
-                 ratione maiores eos voluptatum soluta sequi reiciendis iusto?</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt hic</p>
+            <p>I AM NWAMINI EMMANUEL, A Freelancer ,Web-Developer, Software Engineer, Crypto-Trader and A Teacher of Programming.
+                Am a final year student of Biology science at the Ebonyi state university....
+               I have Over 10 month experience as a frontend web developer and 4month as a backed web developer...... Am Passionate about building Innovative code-based disruptive Web and Mobile solutions using (Primarily) JavaScript, JQuery, GitHub, HTML, CSS,Bootstrap PHP and Laravel...
+                    </p>
+
 
                 <!-- this is the download cv button  -->
 
@@ -128,9 +128,8 @@
         <!-- this div contains the service header text  -->
         <div class="service-header">
             <h1>my services</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias vero
-                veniam fugit velit consectetur iste maiores, illo, eum atque,
-                recusandae vel sunt possimus laborum inventore!</p>
+            <p>I and my team focus on Web development, App development both native apps and cross platform, Web design, Video-Scribing....
+                We look forward rendering best services around the world...  </p>
         </div>
 
         <!-- this div contains the service cards -->
@@ -144,7 +143,7 @@
                             <img src="{{asset('data/images/ux.png')}}" alt="" class="card-img">
                         </div>
                         <h2>web development</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>Frontend and Backend development</p>
                     </div>
                 </div>
                 <!-- this is the second top service card  -->
@@ -154,7 +153,7 @@
                             <img src="{{asset('data/images/images__5_-removebg-preview.png')}}" alt="" class="card-img">
                         </div>
                         <h2>app development</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>Native and cross platforms App.... </p>
                     </div>
                 </div>
             </div>
@@ -169,7 +168,7 @@
                         <img src="{{asset('data/images/video-camera.png')}}" alt="" class="card-img">
                         </div>
                         <h2>video scribing</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>We scribe animation videos for kids and schools to enable them learn faster.. </p>
                     </div>
                 </div>
                 <!-- 4th card  -->
@@ -179,7 +178,7 @@
                             <img src="{{asset('data/images/web-design.png')}}" alt="" class="card-img">
                         </div>
                         <h2>web design</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <p>With our creactivity skills we design different types of websites, Logo, Banner, </p>
                     </div>
                 </div>
             </div>
