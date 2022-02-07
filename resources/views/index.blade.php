@@ -143,7 +143,7 @@
                             <img src="{{asset('data/images/ux.png')}}" alt="" class="card-img">
                         </div>
                         <h2>web development</h2>
-                        <p>Frontend and Backend development</p>
+                        <p>Frontend and Backend Web development</p>
                     </div>
                 </div>
                 <!-- this is the second top service card  -->
@@ -192,7 +192,7 @@
     <section class="contact-section">
         <!-- top section the contains prizing btns -->
         <div class="top-btn">
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+            <h3>Check out our pricing packages....</h3>
             <button class="button" style="vertical-align:middle"><span>monthly</span></button>
         </div>
 
@@ -290,10 +290,11 @@
     <footer>
         <!-- first division -->
         <div class="foot1">
-            <h2><span class="emmy">emmy</span>tect</h2>
+            <h2><span class="emmy">emmy</span>Tech</h2>
             <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Consequuntur neque excepturi debitis hic quasi labore amet
+                No.25 Udensi Street, Abakaliki, Ebonyi State Nigeria.
+                    Send us an email, call us on +2347033244567
+                  You can follow us on social media and get latest updates from us.
             </p>
             <div class="social-media-handle">
                 <img src="{{asset('data/images/facebook.png')}}" alt="" class="social-icon"> <a href="https://facebook.com/emmanuelnwamini">facebook</a>
