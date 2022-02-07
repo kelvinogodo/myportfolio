@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my portfolio</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="./images/logo-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="{{asset('data/css/style.css')}}">
+    <link rel="shortcut icon" href="{{asset('data/images/logo-removebg-preview.png')}}" type="image/x-icon">
 </head>
-<body>  
+<body>
     <!-- this is the header section that contains the logo and the navigation bars   -->
-    <header id="head"> 
+    <header id="head">
         <!-- this is the logo container -->
         <div class="logo-container">
-            <img src="./images/logo-removebg-preview.png" alt="" class="logo">
+            <img src="{{asset('data/images/logo-removebg-preview.png')}}" alt="" class="logo">
         </div>
 
         <!-- this is the navigation bar  for the destop view -->
@@ -46,13 +46,13 @@
 
         <div class="menu-list" id="menu-items">
             <div class="menu-list-login">
-                 <img src="./images/1193.png" alt=""  id="close-sidebar" class="close-btn">
+                 <img src="{{asset('data/images/1193.png')}}" alt=""  id="close-sidebar" class="close-btn">
             </div>
          <ul class="list-items">
-            <li><a href="./index.html">home <img src="./images/arrow-24-xxl.png" alt="" class="arrow"> </a ></li>
-             <li><a href="./html files/contact.html">contact  <img src="./images/arrow-24-xxl.png" alt="" class="arrow"></a></li>             <li><a href="./html files/blog.html">blog  <img src="./images/arrow-24-xxl.png" alt="" class="arrow"></a></li>
-             <li><a href="./html files/project.html">projects <img src="./images/arrow-24-xxl.png" alt="" class="arrow"></a></li>
-             <li><a href="./html files/resume.html">resume  <img src="./images/arrow-24-xxl.png" alt="" class="arrow"></a></li>
+            <li><a href="./index.html">home <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"> </a ></li>
+             <li><a href="./html files/contact.html">contact  <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"></a></li>             <li><a href="./html files/blog.html">blog  <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"></a></li>
+             <li><a href="./html files/project.html">projects <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"></a></li>
+             <li><a href="./html files/resume.html">resume  <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"></a></li>
          </ul>
         </div>
         <!-- this is the code for the hamburger menu in the mobile view -->
@@ -76,8 +76,8 @@
                 web developer
             </h1>
             <p class="intro-details">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae alias hic deserunt, 
-                ratione repellendus omnis. Ullam unde iste quibusdam. 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae alias hic deserunt,
+                ratione repellendus omnis. Ullam unde iste quibusdam.
                 Consequuntur repellat pariatur quod quos voluptatem? Aut magnam eaque maiores hic!
             </p>
             <button class="cssbuttons-io-button"> hire me
@@ -90,7 +90,7 @@
         <!-- this contains the lanpage image -->
 
         <div class="img-container">
-            <img src="./images/profile2.png" alt="" >
+            <img src="{{asset('data/images/profile2.png')}}" alt="" >
         </div>
     </section>
     <!-- this is the end of the landpage section -->
@@ -102,7 +102,7 @@
         <div class="profile-pix-container">
             <!-- this is the div round the picture with pink border-color  -->
             <div class="picture-wrapper">
-                <img src="./images/profile1.jpg" alt="" class="profile-pix">
+                <img src="{{asset('data/images/profile1.jpg')}}" alt="" class="profile-pix">
             </div>
         </div>
         <!-- this contains the about me text  -->
@@ -116,7 +116,7 @@
                 <!-- this is the download cv button  -->
 
             <button class="button" style="vertical-align:middle"><span>Download cv</span></button>
-        </div>       
+        </div>
     </section>
 
     <!-- this is the end of the about me section  -->
@@ -141,8 +141,8 @@
                 <div class="card card1">
                     <div class="card-body1">
                         <div class="card-img-container">
-                            <img src="./images/ux.png" alt="" class="card-img">
-                        </div>   
+                            <img src="{{asset('data/images/ux.png')}}" alt="" class="card-img">
+                        </div>
                         <h2>web development</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     </div>
@@ -151,8 +151,8 @@
                 <div class="card card2">
                     <div class="card-body2">
                         <div class="card-img-container">
-                            <img src="./images/images__5_-removebg-preview.png" alt="" class="card-img">
-                        </div>  
+                            <img src="{{asset('data/images/images__5_-removebg-preview.png')}}" alt="" class="card-img">
+                        </div>
                         <h2>app development</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     </div>
@@ -166,8 +166,8 @@
                 <div class="card card3">
                     <div class="card-body3">
                         <div class="card-img-container">
-                            <img src="./images/video-camera.png" alt="" class="card-img">
-                        </div>  
+                        <img src="{{asset('data/images/video-camera.png')}}" alt="" class="card-img">
+                        </div>
                         <h2>video scribing</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     </div>
@@ -176,8 +176,8 @@
                 <div class="card card4">
                     <div class="card-body4">
                         <div class="card-img-container">
-                            <img src="./images/web-design.png" alt="" class="card-img">
-                        </div>  
+                            <img src="{{asset('data/images/web-design.png')}}" alt="" class="card-img">
+                        </div>
                         <h2>web design</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     </div>
@@ -201,26 +201,26 @@
         <div class="price-card-container">
             <!-- prize card 1 -->
             <div class="prize-card prizecard1">
-                <img src="./images/gold-medal-1321-removebg-preview.png" alt="" class="banner">
+                <img src="{{asset('data/images/gold-medal-1321-removebg-preview.png')}}" alt="" class="banner">
                 <h1 class="prize">
                     <span class="small-text">bronze plan</span><br>
                     $150.00
                 </h1>
                 <ul class="prize-container">
                     <li class="prize-list">
-                        <img src="./images/thick.png" alt="" class="thicked"> <a href="#">webhost of your site</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost of your site</a>
                     </li>
                     <li class="prize-list">
-                        <img src="./images/thick.png" alt="" class="thicked"> <a href="#">webhost</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost</a>
                     </li>
                     <li class="prize-list">
-                        <img src="./images/thick.png" alt="" class="thicked"> <a href="#">webhost</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost</a>
                     </li>
                     <li class="prize-list">
-                        <img src="./images/thick.png" alt="" class="thicked"> <a href="#">webhost</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost</a>
                     </li>
                     <li class="prize-list">
-                        <img src="./images/thick.png" alt="" class="thicked"> <a href="#">webhost</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost</a>
                     </li>
                 </ul>
                 <button class="pink-btn">
@@ -229,26 +229,26 @@
             </div>
             <!-- prize card 2 -->
             <div class="prize-card prizecard2">
-                <img src="./images/silver-medal-1948-removebg-preview.png" alt="" class="banner">
+                <img src="{{asset('data/images/silver-medal-1948-removebg-preview.png')}}" alt="" class="banner">
                 <h1 class="prize">
                     <span class="small-text">silver plan</span><br>
                     $200.00
                 </h1>
                 <ul class="prize-container">
                     <li class="prize-list">
-                        <img src="./images/thick.png" alt="" class="thicked"> <a href="#">webhost of your site</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost of your site</a>
                     </li>
                     <li class="prize-list">
-                        <img src="./images/thick.png" alt="" class="thicked"> <a href="#">webhost</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost</a>
                     </li>
                     <li class="prize-list">
-                        <img src="./images/thick.png" alt="" class="thicked"> <a href="#">webhost</a>
+                        <img src="{{asset('asset/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost</a>
                     </li>
                     <li class="prize-list">
-                        <img src="./images/thick.png" alt="" class="thicked"> <a href="#">webhost</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost</a>
                     </li>
                     <li class="prize-list">
-                        <img src="./images/thick.png" alt="" class="thicked"> <a href="#">webhost</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost</a>
                     </li>
                 </ul>
                 <button class="pink-btn">
@@ -257,26 +257,26 @@
             </div>
             <!-- prize card 3 -->
             <div class="prize-card prizecard3">
-                <img src="./images/gold.png" alt="" class="banner">
+                <img src="{{asset('data/images/gold.png')}}" alt="" class="banner">
                 <h1 class="prize">
                     <span class="small-text">gold plan</span><br>
                     $300.00
                 </h1>
                 <ul class="prize-container">
                     <li class="prize-list">
-                        <img src="./images/thick.png" alt="" class="thicked"> <a href="#">webhost of your site</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost of your site</a>
                     </li>
                     <li class="prize-list">
-                        <img src="./images/thick.png" alt="" class="thicked"> <a href="#">webhost</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost</a>
                     </li>
                     <li class="prize-list">
-                        <img src="./images/thick.png" alt="" class="thicked"> <a href="#">webhost</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost</a>
                     </li>
                     <li class="prize-list">
-                        <img src="./images/thick.png" alt="" class="thicked"> <a href="#">webhost</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost</a>
                     </li>
                     <li class="prize-list">
-                        <img src="./images/thick.png" alt="" class="thicked"> <a href="#">webhost</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost</a>
                     </li>
                 </ul>
                 <button class="pink-btn">
@@ -294,22 +294,22 @@
             <h2><span class="emmy">emmy</span>tect</h2>
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Consequuntur neque excepturi debitis hic quasi labore amet 
+                Consequuntur neque excepturi debitis hic quasi labore amet
             </p>
             <div class="social-media-handle">
-                <img src="./images/facebook.png" alt="" class="social-icon">
-                <img src="./images/insta.png" alt="" class="social-icon">
-                <img src="./images/whatsapp.png" alt="" class="social-icon">
-                <img src="./images/git.png" alt="" class="social-icon">
-                <img src="./images/mail.png" alt="" class="social-icon">
+                <img src="{{asset('data/images/facebook.png')}}" alt="" class="social-icon"> <a href="https://facebook.com/emmanuelnwamini">facebook</a>
+                <img src="{{asset('data/images/insta.png')}}" alt="" class="social-icon"> <a href="https://www.linkedin.com/in/emmanuel-godwin-a21081215?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BNxacVc4PTFuG5iak6zwyxQ%3D%3D">linkedln</a>
+                <img src="{{asset('data/images/whatsapp.png')}}" alt="" class="social-icon"> <a href=" https://wa.me/+2347042244539">whatsapp</a>
+                <img src="{{asset('data/images/git.png')}}" alt="" class="social-icon"> <a href="https://github.com/youngemmy5956">github</a>
+                <img src="{{asset('data/images/mail.png')}}" alt="" class="social-icon"> <a href="mailto:emmanuelgodwin558@gmail.com">email</a>
             </div>
         </div>
         <!-- second division  -->
         <div class="foot1">
             <h2>contact me</h2>
-            <li ><img src="./images/twitter.png" alt=""class="my-img"> <a href="#">@emmanula/twitter.com</a></li>
-            <li ><img src="./images/instagram.png" alt=""class="my-img"> <a href="#">www.google.com</a></li>
-            <li ><img src="./images/images__4_-removebg-preview.png" alt=""class="my-img"> <a href="#">+234 7042244539</a></li>
+            <li ><img src="{{asset('data/images/twitter.png')}}" alt=""class="my-img"> <a href="https://twitter.com/onyedicach">@onyedicach</a></li>
+            <li ><img src="{{asset('data/images/instagram.png')}}" alt=""class="my-img"> <a href="https://instagram.com/nwaminiemmy">@nwaminiemmy</a></li>
+            <li ><img src="{{asset('data/images/images__4_-removebg-preview.png')}}" alt=""class="my-img"> <a href="https://wa.me/+2347042244539">+2347042244539</a></li>
         </div>
         <!-- 3rd division  -->
 
@@ -320,8 +320,11 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, deserunt.
             </p>
             <input type="email" name="" id="" placeholder="enter your email" class="input">
+            <button class="pink-btn">
+                subscribe
+            </button>
         </div>
     </footer>
-    <script src="./js/main.js"></script>
+    <script src="{{asset('data/js/main.js')}}"></script>
 </body>
 </html>
