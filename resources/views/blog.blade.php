@@ -250,19 +250,21 @@
             <li ><img src="{{asset('data/images/instagram.png')}}" alt=""class="my-img"> <a href="https://instagram.com/nwaminiemmy">@nwaminiemmy</a></li>
             <li ><img src="{{asset('data/images/images__4_-removebg-preview.png')}}" alt=""class="my-img"> <a href="https://wa.me/+2347042244539">+2347042244539</a></li>
         </div>
-        <!-- 3rd division  -->
+         <!-- 3rd division  -->
 
-        <div class="foot1">
-            <h2>newsletter</h2>
+         <div class="foot1">
             <p>
+            <h2>newsletter</h2>
                 Consequuntur neque excepturi debitis hic quasi labore amet
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, deserunt.
             </p>
             <input type="email" name="" id="" placeholder="enter your email" class="input">
+            <button class="pink-btn">
+                subscribe
+            </button>
         </div>
     </footer>
-    <script src="../js/main.js"></script>
+    <script src="{{asset('data/js/main.js')}}"></script>
 </body>
 </html>
-
 <!-- with this boss, i coe to the end of my part... i love working with you boss @emma. -->

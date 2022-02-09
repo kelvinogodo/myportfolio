@@ -62,20 +62,42 @@
         <div class="contact-text-container">
             <h1>contact</h1>
             <h2>get in touch</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                 Eum molestias minima rem culpa, quo quidem totam nisi
-                 animi dignissimos porro non ab. Nam consequatur rem aperiam et
-                 soluta tempora similique, porro odio.
-                Veniam, necessitatibus? Distinctio tempora iure veniam laudantium aut!
+            <p> I am always open to new opportunities and would love to hear from you.
+                Please feel free to contact me.
             </p>
         </div>
         <!-- this is the contact form  -->
         <div class="form-container">
-            <form action="" method="post" class="contact-form">
+
+
+                @if(session('success'))
+                <div class="alert alert-success">
+                  {{ session('success') }}
+                </div>
+                @endif
+
+            <form action="{{route('contact.store')}}" method="post" class="contact-form">
+                @csrf
+
                 <label for="#email-input">enter email</label>
                 <input type="email" placeholder="enter email" class="contact-input" id="email-input">
+
+                @if ($errors->has('email'))
+                   <div class="error">
+                       {{ $errors->first('email') }}
+                 </div>
+               @endif
+                </div>
+
                 <label for="#text-area">enter your message</label>
                 <textarea name="" id="text-area" cols="30" rows="10" class="text-area" placeholder="type your message here"></textarea>
+
+                @if ($errors->has('message'))
+                    <div class="error">
+                       {{ $errors->first('message') }}
+                    </div>
+                @endif
+
                 <button type="submit" class="submit-btn" value="submit">send</button>
             </form>
         </div>
@@ -86,9 +108,7 @@
     <section class="recommendation-section">
         <div class="recommendation-text">
             <h1>recommendations</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
-                sapiente similique! Dignissimos soluta reiciendis ipsam corrupti
-                similique, magnam et animi amet eveniet perspiciatis dolore iure?</p>
+            <p>What my clients says about me...</p>
         </div>
         <!-- this contains the customer cards -->
         <div class="recommendation-card-container">
@@ -103,12 +123,13 @@
                 </div>
                 <div class="rec-card-body">
                     <h1>great quality</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                         Quae aliquam nobis nesciunt ipsam doloribus rem optio error ullam laborum. Fugiat.
+                    <p>Emmanuel is a very good developer very pleasant to work with.
+                        He is very good at what he does and is always willing to help
+                        out and answer any questions that may arise.
                     </p>
                 </div>
                 <div class="profile-info">
-                    <img src="../images/profile1.jpg" alt="" class="profile-img">
+                    <img src="{{asset('data/images/profile1.jpg')}}" alt="" class="profile-img">
                     <p>
                         <span class="person-name">john doe</span>
                         <br>
@@ -119,7 +140,7 @@
             <!-- 2nd  -->
             <div class="recommendation-card">
                 <div class="rank-container">
-                    <img src="{{asset('asset')}}" alt="" class="star">
+                    <img src="{{asset('data/images/star-removebg-preview.png')}}" alt="" class="star">
                     <img src="{{asset('data/images/star-removebg-preview.png')}}" alt="" class="star">
                     <img src="{{asset('data/images/star-removebg-preview.png')}}" alt="" class="star">
                     <img src="{{asset('data/images/star-removebg-preview.png')}}" alt="" class="star">
@@ -127,12 +148,13 @@
                 </div>
                 <div class="rec-card-body">
                     <h1>great quality</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                         Quae aliquam nobis nesciunt ipsam doloribus rem optio error ullam laborum. Fugiat.
+                    <p>Emmanuel is a very talented developer.
+                        He solves problems on web and he is very good at what he does.
+                         He brings ideals to real life problems..
                     </p>
                 </div>
                 <div class="profile-info">
-                    <img src="../images/profile1.jpg" alt="" class="profile-img">
+                    <img src="{{asset('data/images/profile1.jpg')}}" alt="" class="profile-img">
                     <p>
                         <span class="person-name">john doe</span>
                         <br>
@@ -151,12 +173,12 @@
                 </div>
                 <div class="rec-card-body">
                     <h1>great quality</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                         Quae aliquam nobis nesciunt ipsam doloribus rem optio error ullam laborum. Fugiat.
+                    <p>Nwamini is a very dedicated developer...
+                        His paasionate about web development and he is very good at what he does.
                     </p>
                 </div>
                 <div class="profile-info">
-                    <img src="../images/profile1.jpg" alt="" class="profile-img">
+                    <img src="{{asset('data/images/profile1.jpg')}}" alt="" class="profile-img">
                     <p>
                         <span class="person-name">john doe</span>
                         <br>
@@ -194,14 +216,17 @@
         <!-- 3rd division  -->
 
         <div class="foot1">
-            <h2>newsletter</h2>
             <p>
+            <h2>newsletter</h2>
                 Consequuntur neque excepturi debitis hic quasi labore amet
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, deserunt.
             </p>
             <input type="email" name="" id="" placeholder="enter your email" class="input">
+            <button class="pink-btn">
+                subscribe
+            </button>
         </div>
     </footer>
-    <script src="../js/main.js"></script>
+    <script src="{{asset('data/js/main.js')}}"></script>
 </body>
 </html>

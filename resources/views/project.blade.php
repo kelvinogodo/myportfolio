@@ -196,14 +196,17 @@
         <!-- 3rd division  -->
 
         <div class="foot1">
-            <h2>newsletter</h2>
             <p>
+            <h2>newsletter</h2>
                 Consequuntur neque excepturi debitis hic quasi labore amet
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, deserunt.
             </p>
             <input type="email" name="" id="" placeholder="enter your email" class="input">
+            <button class="pink-btn">
+                subscribe
+            </button>
         </div>
     </footer>
-    <script src="../js/main.js"></script>
+    <script src="{{asset('data/js/main.js')}}"></script>
 </body>
 </html>

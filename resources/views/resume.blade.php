@@ -38,7 +38,7 @@
         <!-- this is the navbar for the mobile view  -->
         <div class="menu-list" id="menu-items">
             <div class="menu-list-login">
-                 <img src="../images/1193.png" alt=""  id="close-sidebar" class="close-btn">
+                 <img src="{{asset('data/images/1193.png')}}" alt=""  id="close-sidebar" class="close-btn">
             </div>
          <ul class="list-items">
             <li><a href="{{route("index")}}">home<img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"> </a ></li>
@@ -97,17 +97,20 @@
             <li ><img src="{{asset('data/images/instagram.png')}}" alt=""class="my-img"> <a href="https://instagram.com/nwaminiemmy">@nwaminiemmy</a></li>
             <li ><img src="{{asset('data/images/images__4_-removebg-preview.png')}}" alt=""class="my-img"> <a href="https://wa.me/+2347042244539">+2347042244539</a></li>
         </div>
-        <!-- 3rd division  -->
+         <!-- 3rd division  -->
 
-        <div class="foot1">
-            <h2>newsletter</h2>
+         <div class="foot1">
             <p>
+            <h2>newsletter</h2>
                 Consequuntur neque excepturi debitis hic quasi labore amet
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, deserunt.
             </p>
             <input type="email" name="" id="" placeholder="enter your email" class="input">
+            <button class="pink-btn">
+                subscribe
+            </button>
         </div>
     </footer>
-    <script src="../js/main.js"></script>
+    <script src="{{asset('data/js/main.js')}}"></script>
 </body>
 </html>
