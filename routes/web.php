@@ -33,6 +33,6 @@ Route::get("/resume", [HomeController::class, "resume"])->name("resume");
 
 
 
-Route::get('/contact', [ContactMeFormController::class, 'createForm']);
-Route::post('/contact', [ContactMeFormController::class, 'ContactMeForm'])->name('contact.store');
+// Route::get('/contact', [ContactMeFormController::class, 'createForm']);
+// Route::post('/contact', [ContactMeFormController::class, 'ContactMeForm'])->name('contact.store');
 

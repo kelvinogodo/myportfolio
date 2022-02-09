@@ -87,7 +87,7 @@
                        {{ $errors->first('email') }}
                  </div>
                @endif
-                </div>
+
 
                 <label for="#text-area">enter your message</label>
                 <textarea name="" id="text-area" cols="30" rows="10" class="text-area" placeholder="type your message here"></textarea>
@@ -97,6 +97,8 @@
                        {{ $errors->first('message') }}
                     </div>
                 @endif
+
+            </div>
 
                 <button type="submit" class="submit-btn" value="submit">send</button>
             </form>
