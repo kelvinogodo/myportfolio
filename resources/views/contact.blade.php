@@ -76,33 +76,45 @@
                 </div>
                 @endif
 
-            <form action="{{route('contact.store')}}" method="post" class="contact-form">
+            <form action="{{route('contacts.store')}}" method="post" class="contact-form">
                 @csrf
 
-                <label for="#email-input">enter email</label>
-                <input type="email" placeholder="enter email" class="contact-input" id="email-input">
+                <label for="#email-input">Enter Email</label>
+                <input type="email" placeholder="enter email" {{ old('email')}} name="email" class="contact-input" id="email-input" required>
 
+
+                <label for="#name-input">Enter Name</label>
+                <input type="text" placeholder="input your name"{{ old('name')}} name="name" class="contact-input" id="">
                 @if ($errors->has('email'))
-                   <div class="error">
-                       {{ $errors->first('email') }}
-                 </div>
-               @endif
+                <div class="error">
+                    {{ $errors->first('email') }}
+              </div>
+            @endif
 
 
-                <label for="#text-area">enter your message</label>
-                <textarea name="" id="text-area" cols="30" rows="10" class="text-area" placeholder="type your message here"></textarea>
+                <label for="#email-input">Enter Subject</label>
+                <input type="text" placeholder="enter Subject" {{ old('subject')}} name="subject" class="contact-input">
 
-                @if ($errors->has('message'))
+
+                <label for="#text-area">Enter Your Message</label>
+                <textarea name="message" id="text-area" cols="30" {{old("message")}} rows="10" class="text-area" placeholder="type your message here"></textarea>
+
+                     @if ($errors->has('message'))
                     <div class="error">
                        {{ $errors->first('message') }}
                     </div>
-                @endif
+                    @endif
 
-            </div>
 
-                <button type="submit" class="submit-btn" value="submit">send</button>
+
+                <button type="submit" class="submit-btn" value="submit">Send</button>
             </form>
         </div>
+
+
+    </div>
+
+
     </section>
     <!-- this is the end of the first section  -->
 

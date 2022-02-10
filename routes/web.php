@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\EmailController;
 
 /*
@@ -29,9 +30,9 @@ Route::get("/resume", [HomeController::class, "resume"])->name("resume");
 
 
 // Route::get('/contact', [ContactUsFormController::class, 'createForm']);
-// Route::post("/update", '[ContactMeFormController::class, "contactMeForm"]')->name("email");
+// Route::post("/store", '[ContactMeFormController::class, "contactMeForm"]')->name("store");
 
-
+Route::resource("contacts", ContactController::class);
 
 // Route::get('/contact', [ContactMeFormController::class, 'createForm']);
 // Route::post('/contact', [ContactMeFormController::class, 'ContactMeForm'])->name('contact.store');

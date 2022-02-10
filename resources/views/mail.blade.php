@@ -3,7 +3,6 @@ You have got an email from : {{ $name }} <br><br>
 User details: <br><br>
 Name: {{ $name }} <br>
 Email: {{ $email }} <br>
-Phone: {{ $phone }} <br>
 Subject: {{ $subject }} <br>
-Message: {{ $user_query }} <br><br>
+Message: {{ $messages }} <br><br>
 Thanks
