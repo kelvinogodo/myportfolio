@@ -23,9 +23,9 @@
                 <li class="tab">
                     <a href="{{route("contact")}}" class="link">contact</a>
                 </li>
-                <li class="tab">
+                {{-- <li class="tab">
                     <a href="{{route("resume")}}" class="link">resume</a>
-                </li>
+                </li> --}}
                 <li class="tab">
                     <a href="{{route("project")}}" class="link">projects</a>
                 </li>
@@ -43,7 +43,7 @@
             <li><a href=".{{route("index")}}">home <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"> </a ></li>
              <li><a href="{{route("contact")}}">contact  <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"></a></li>
              <li><a href="{{route("blog")}}">blog  <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"></a></li>
-             <li><a href="{{route("resume")}}">resume  <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"></a></li>
+             {{-- <li><a href="{{route("resume")}}">resume  <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"></a></li> --}}
              <li><a href="{{route("project")}}">projects <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"></a></li>
          </ul>
         </div>

@@ -22,15 +22,15 @@
                 <li class="tab">
                     <a href="{{route("contact")}}" class="link">contact</a>
                 </li>
-                <li class="tab">
+                {{-- <li class="tab">
                     <a href="{{route("resume")}}" class="link">resume</a>
-                </li>
+                </li> --}}
                 <li class="tab">
                     <a href="{{route("project")}}" class="link">projects</a>
                 </li>
-                <li class="tab">
+                {{-- <li class="tab">
                     <a href="{{route("blog")}}" class="link">blog</a>
-                </li>
+                </li> --}}
             </ul>
         </nav>
         <div class="menu-list" id="menu-items">
@@ -40,8 +40,8 @@
          <ul class="list-items">
             <li><a href="{{route("index")}}">home<img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"> </a ></li>
              <li><a href="{{route("contact")}}">contact  <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"></a></li>
-             <li><a href="{{route("blog")}}">blog  <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"></a></li>
-             <li><a href="{{route("resume")}}">resume  <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"></a></li>
+             {{-- <li><a href="{{route("blog")}}">blog  <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"></a></li> --}}
+             {{-- <li><a href="{{route("resume")}}">resume  <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"></a></li> --}}
              <li><a href="{{route("project")}}">projects  <img src="{{asset('data/images/arrow-24-xxl.png')}}" alt="" class="arrow"></a></li>
          </ul>
         </div>
@@ -181,7 +181,7 @@
             <div class="social-media-handle">
                 <img src="{{asset('data/images/facebook.png')}}" alt="" class="social-icon"> <a href="https://facebook.com/emmanuelnwamini">facebook</a>
                 <img src="{{asset('data/images/insta.png')}}" alt="" class="social-icon"> <a href="https://www.linkedin.com/in/emmanuel-godwin-a21081215?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BNxacVc4PTFuG5iak6zwyxQ%3D%3D">linkedln</a>
-                <img src="{{asset('data/images/whatsapp.png')}}" alt="" class="social-icon"> <a href=" https://wa.me/+2347042244539">whatsapp</a>
+                <img src="{{asset('data/images/whatsapp.png')}}" alt="" class="social-icon"> <a href=" https://wa.me/+2347042679942">whatsapp</a>
                 <img src="{{asset('data/images/git.png')}}" alt="" class="social-icon"> <a href="https://github.com/youngemmy5956">github</a>
                 <img src="{{asset('data/images/mail.png')}}" alt="" class="social-icon"> <a href="mailto:emmanuelgodwin558@gmail.com">email</a>
             </div>
@@ -191,7 +191,7 @@
             <h2>contact me</h2>
             <li ><img src="{{asset('data/images/twitter.png')}}" alt=""class="my-img"> <a href="https://twitter.com/onyedicach">@onyedicach</a></li>
             <li ><img src="{{asset('data/images/instagram.png')}}" alt=""class="my-img"> <a href="https://instagram.com/nwaminiemmy">@nwaminiemmy</a></li>
-            <li ><img src="{{asset('data/images/images__4_-removebg-preview.png')}}" alt=""class="my-img"> <a href="https://wa.me/+2347042244539">+2347042244539</a></li>
+            <li ><img src="{{asset('data/images/images__4_-removebg-preview.png')}}" alt=""class="my-img"> <a href="https://wa.me/+2347042679942">+2347042679942</a></li>
         </div>
         <!-- 3rd division  -->
 
