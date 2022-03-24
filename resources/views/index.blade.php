@@ -211,19 +211,19 @@
                 </h1>
                 <ul class="prize-container">
                     <li class="prize-list">
-                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost of your site</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="https://wa.me/+2347042679942">webhost of your site</a>
                     </li>
                     <li class="prize-list">
-                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="https://wa.me/+2347042679942">webhost</a>
                     </li>
                     <li class="prize-list">
-                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="https://wa.me/+2347042679942">webhost</a>
                     </li>
                     <li class="prize-list">
-                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="https://wa.me/+2347042679942">webhost</a>
                     </li>
                     <li class="prize-list">
-                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="https://wa.me/+2347042679942">webhost</a>
                     </li>
                 </ul>
                 <button class="pink-btn">
@@ -239,19 +239,19 @@
                 </h1>
                 <ul class="prize-container">
                     <li class="prize-list">
-                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost of your site</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="https://wa.me/+2347042679942">webhost of your site</a>
                     </li>
                     <li class="prize-list">
-                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="https://wa.me/+2347042679942">webhost</a>
                     </li>
                     <li class="prize-list">
-                        <img src="{{asset('asset/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost</a>
+                        <img src="{{asset('asset/images/thick.png')}}" alt="" class="thicked"> <a href="https://wa.me/+2347042679942">webhost</a>
                     </li>
                     <li class="prize-list">
-                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="https://wa.me/+2347042679942">webhost</a>
                     </li>
                     <li class="prize-list">
-                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="https://wa.me/+2347042679942">webhost</a>
                     </li>
                 </ul>
                 <button class="pink-btn">
@@ -267,19 +267,19 @@
                 </h1>
                 <ul class="prize-container">
                     <li class="prize-list">
-                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost of your site</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="https://wa.me/+2347042679942">webhost of your site</a>
                     </li>
                     <li class="prize-list">
-                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="https://wa.me/+2347042679942">webhost</a>
                     </li>
                     <li class="prize-list">
-                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="https://wa.me/+2347042679942">webhost</a>
                     </li>
                     <li class="prize-list">
-                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="https://wa.me/+2347042679942">webhost</a>
                     </li>
                     <li class="prize-list">
-                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="#">webhost</a>
+                        <img src="{{asset('data/images/thick.png')}}" alt="" class="thicked"> <a href="https://wa.me/+2347042679942">webhost</a>
                     </li>
                 </ul>
                 <button class="pink-btn">
